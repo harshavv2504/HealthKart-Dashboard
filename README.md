@@ -20,7 +20,6 @@ The project is logically structured into three main stages: Data Generation, Dat
   <img src="docs/csv_pandas_format.png" alt="Project Architecture Diagram" />
 </p>
 
-```
 
 ### 2.1. Data Generation (`generate_data.py`)  
 This script creates four foundational CSV files (`influencers.csv`, `posts.csv`, `tracking_data.csv`, `payouts.csv`) containing realistic, synthetic data. This raw data resides in the `/data` directory.
