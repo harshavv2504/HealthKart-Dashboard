@@ -1,0 +1,101 @@
+influencer_id,name,category,gender,follower_count,platform,payout_basis
+inf_001,Ananya Reddy,Yoga,Female,3213604,Instagram,Post
+inf_002,Diya Mehta,Bodybuilding,Female,53925,Instagram,Order
+inf_003,Diya Kumar,Yoga,Female,57352,Instagram,Order
+inf_004,Kiara Singh,Bodybuilding,Female,164852,Instagram,Order
+inf_005,Aisha Kumar,Fitness,Female,307580,YouTube,Order
+inf_006,Isha Kumar,Bodybuilding,Female,476362,Twitter,Order
+inf_007,Saanvi Desai,Yoga,Female,79820,Twitter,Order
+inf_008,Aisha Mehta,Lifestyle,Female,89263,Instagram,Order
+inf_009,Aditya Reddy,Health & Wellness,Male,341838,Instagram,Order
+inf_010,Kabir Mehta,Nutrition,Male,397355,Instagram,Order
+inf_011,Dev Desai,Bodybuilding,Male,765133,Instagram,Post
+inf_012,Zoya Joshi,Fitness,Female,355662,Instagram,Order
+inf_013,Diya Sharma,Lifestyle,Female,21816,YouTube,Order
+inf_014,Priya Sharma,Nutrition,Female,82040,Instagram,Order
+inf_015,Saanvi Singh,Lifestyle,Female,560143,Twitter,Post
+inf_016,Rohan Joshi,Bodybuilding,Male,423015,Instagram,Order
+inf_017,Reyansh Reddy,Bodybuilding,Male,546839,Instagram,Post
+inf_018,Aditya Sharma,Yoga,Male,356287,Instagram,Order
+inf_019,Aditya Kumar,Fitness,Male,265689,Instagram,Order
+inf_020,Saanvi Desai,Lifestyle,Female,6656,Instagram,Order
+inf_021,Rohan Mehta,Health & Wellness,Male,76795,Instagram,Order
+inf_022,Saanvi Gupta,Nutrition,Female,511151,YouTube,Post
+inf_023,Aditya Sharma,Nutrition,Male,68404,Instagram,Order
+inf_024,Zoya Nair,Yoga,Female,78497,Instagram,Order
+inf_025,Aditya Singh,Lifestyle,Male,40436,Instagram,Order
+inf_026,Rohan Kumar,Bodybuilding,Male,916780,YouTube,Post
+inf_027,Zara Singh,Fitness,Female,434183,YouTube,Order
+inf_028,Isha Reddy,Yoga,Female,57697,Twitter,Order
+inf_029,Arjun Joshi,Health & Wellness,Male,87452,Twitter,Order
+inf_030,Zoya Kumar,Lifestyle,Female,39580,Instagram,Order
+inf_031,Kabir Joshi,Fitness,Male,30827,Instagram,Order
+inf_032,Rohan Nair,Bodybuilding,Male,575604,YouTube,Post
+inf_033,Zara Nair,Bodybuilding,Female,6511524,Instagram,Post
+inf_034,Kabir Desai,Lifestyle,Male,72809,Instagram,Order
+inf_035,Kiara Patel,Nutrition,Female,902319,Instagram,Post
+inf_036,Zoya Kumar,Fitness,Female,777982,YouTube,Post
+inf_037,Aisha Desai,Health & Wellness,Female,57427,YouTube,Order
+inf_038,Myra Singh,Yoga,Female,916276,YouTube,Post
+inf_039,Priya Gupta,Fitness,Female,434231,YouTube,Order
+inf_040,Aarav Patel,Nutrition,Male,2885691,Instagram,Post
+inf_041,Myra Patel,Lifestyle,Female,66371,Instagram,Order
+inf_042,Kiara Nair,Lifestyle,Female,7754,Instagram,Order
+inf_043,Kiara Kumar,Fitness,Female,8618,Instagram,Order
+inf_044,Diya Reddy,Nutrition,Female,522943,YouTube,Post
+inf_045,Diya Sharma,Health & Wellness,Female,67621,Instagram,Order
+inf_046,Aisha Nair,Bodybuilding,Female,352767,YouTube,Order
+inf_047,Aisha Kumar,Nutrition,Female,298046,Instagram,Order
+inf_048,Vivaan Patel,Fitness,Male,51902,YouTube,Order
+inf_049,Aisha Reddy,Fitness,Female,61400,Instagram,Order
+inf_050,Kabir Gupta,Bodybuilding,Male,786074,Instagram,Post
+inf_051,Priya Kumar,Bodybuilding,Female,925210,Instagram,Post
+inf_052,Aarav Sharma,Nutrition,Male,145863,YouTube,Order
+inf_053,Vikram Sharma,Bodybuilding,Male,596924,Instagram,Post
+inf_054,Myra Reddy,Fitness,Female,22183,YouTube,Order
+inf_055,Aryan Mehta,Bodybuilding,Male,74711,Instagram,Order
+inf_056,Diya Mehta,Nutrition,Female,351788,Instagram,Order
+inf_057,Arjun Mehta,Bodybuilding,Male,59647,Instagram,Order
+inf_058,Myra Patel,Yoga,Female,27258,Instagram,Order
+inf_059,Aisha Nair,Nutrition,Female,37646,Instagram,Order
+inf_060,Kiara Nair,Fitness,Female,528233,Instagram,Post
+inf_061,Arjun Patel,Bodybuilding,Male,4878,Instagram,Order
+inf_062,Zara Sharma,Bodybuilding,Female,689047,YouTube,Post
+inf_063,Aryan Desai,Yoga,Male,24245,YouTube,Order
+inf_064,Aryan Gupta,Lifestyle,Male,261497,YouTube,Order
+inf_065,Vikram Patel,Bodybuilding,Male,19134,YouTube,Order
+inf_066,Aarav Kumar,Bodybuilding,Male,717094,Instagram,Post
+inf_067,Isha Mehta,Fitness,Female,303743,YouTube,Order
+inf_068,Rohan Kumar,Fitness,Male,674604,YouTube,Post
+inf_069,Rohan Joshi,Fitness,Male,99972,YouTube,Order
+inf_070,Isha Sharma,Health & Wellness,Female,259735,Instagram,Order
+inf_071,Kabir Nair,Bodybuilding,Male,41560,YouTube,Order
+inf_072,Ananya Singh,Fitness,Female,16447,Instagram,Order
+inf_073,Aisha Gupta,Fitness,Female,1036240,YouTube,Post
+inf_074,Vikram Nair,Nutrition,Male,420440,Instagram,Order
+inf_075,Priya Desai,Lifestyle,Female,179488,Instagram,Order
+inf_076,Zara Sharma,Fitness,Female,10569,Instagram,Order
+inf_077,Diya Sharma,Bodybuilding,Female,41391,YouTube,Order
+inf_078,Dev Singh,Nutrition,Male,556232,Instagram,Post
+inf_079,Vivaan Desai,Nutrition,Male,55655,Instagram,Order
+inf_080,Kiara Gupta,Health & Wellness,Female,12368,Instagram,Order
+inf_081,Saanvi Singh,Fitness,Female,688444,YouTube,Post
+inf_082,Priya Singh,Health & Wellness,Female,6796,Instagram,Order
+inf_083,Isha Mehta,Bodybuilding,Female,52003,Instagram,Order
+inf_084,Ananya Patel,Nutrition,Female,62828,Instagram,Order
+inf_085,Myra Gupta,Yoga,Female,160084,Instagram,Order
+inf_086,Diya Sharma,Lifestyle,Female,141383,Instagram,Order
+inf_087,Reyansh Patel,Lifestyle,Male,120329,YouTube,Order
+inf_088,Priya Singh,Nutrition,Female,976968,YouTube,Post
+inf_089,Saanvi Reddy,Bodybuilding,Female,66407,Instagram,Order
+inf_090,Arjun Sharma,Bodybuilding,Male,48594,YouTube,Order
+inf_091,Myra Singh,Nutrition,Female,94082,YouTube,Order
+inf_092,Dev Desai,Fitness,Male,37835,Instagram,Order
+inf_093,Vivaan Desai,Nutrition,Male,96920,YouTube,Order
+inf_094,Ananya Reddy,Lifestyle,Female,81551,Instagram,Order
+inf_095,Saanvi Mehta,Health & Wellness,Female,74897,Twitter,Order
+inf_096,Ananya Desai,Lifestyle,Female,5897079,Instagram,Post
+inf_097,Saanvi Desai,Health & Wellness,Female,311173,Instagram,Order
+inf_098,Arjun Reddy,Nutrition,Male,35014,YouTube,Order
+inf_099,Isha Patel,Fitness,Female,934955,Instagram,Post
+inf_100,Kabir Singh,Health & Wellness,Male,144047,Instagram,Order

@@ -1,0 +1,121 @@
+/* Basic styling for the KPI cards */
+.kpi-card {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: #2c3e50;
+    transition: transform 0.2s ease-in-out;
+    margin: 8px;
+    height: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px);
+}
+
+.kpi-card h3 {
+    color: #000000;
+    font-size: 0.85em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.kpi-card p {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #2980b9;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1em;
+    text-align: center;
+    width: 100%;
+}
+
+/* Global Streamlit UI adjustments */
+.stApp h1 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.stApp h2 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.stApp {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Styling for centered pill tabs */
+.stTabs [data-baseweb="tab-list"] {
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #ecf0f1;
+    border-radius: 9999px;
+    padding: 10px 24px;
+    color: #34495e;
+    font-weight: 500;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: #dce0e3;
+    color: #2c3e50;
+}
+
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background-color: #6a0dad;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    border-bottom: none !important;
+}
+
+.stTabs [data-baseweb="tab-list"] button:hover {
+    background-color: #e0e2e6;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
+    background-color: #6a0dad;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-bottom: none;
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    border-bottom: none !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-bottom: none !important;
+}
+
+.stTabs [data-baseweb="tab"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.stTabs [data-baseweb="tab-highlight"] {
+    display: none !important;
+}

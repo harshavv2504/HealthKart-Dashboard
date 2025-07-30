@@ -1,0 +1,130 @@
+/* Basic styling for the KPI cards */
+.kpi-card {
+    background-color: #ffffff;
+    padding: 10px 15px; /* UI Metric: Adjusted vertical padding to 10px, horizontal to 15px */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: #2c3e50;
+    transition: transform 0.2s ease-in-out;
+    margin: 8px; /* Add margin for spacing */
+    height: 100px; /* Fixed height for consistent card size */
+    
+    /* Flexbox for perfect vertical and horizontal centering of content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers items along the main axis (vertical) */
+    align-items: center;   /* Centers items along the cross-axis (horizontal) */
+    
+    /* You can add a gap if you want more space between the h3 and p */
+    /* gap: 2px; */ 
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.kpi-card h3 {
+    color: #000000;
+    font-size: 0.85em; /* UI Metric: Slightly reduced font size for better fit and optical balance */
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 1em; /* UI Metric: Tight line height */
+    text-align: center; /* UI Metric: Ensures heading text is horizontally centered */
+    width: 100%;        /* UI Metric: Ensures heading takes full available width */
+}
+
+.kpi-card p {
+    font-size: 1.8em; /* UI Metric: Large font size for the value */
+    font-weight: bold;
+    color: #2980b9; /* UI Metric: A distinct blue color for the values */
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1em; /* UI Metric: Tight line height */
+    text-align: center; /* UI Metric: Ensures paragraph text is horizontally centered */
+    width: 100%;        /* UI Metric: Ensures paragraph takes full available width */
+}
+
+/* Global Streamlit UI adjustments for minimization */
+.stApp h1 {
+    font-size: 2em; /* Smaller main title */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.stApp h2 {
+    font-size: 1.5em; /* Smaller section headers */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.stApp {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Styling for centered pill tabs */
+.stTabs [data-baseweb="tab-list"] {
+    justify-content: center;
+    gap: 12px; /* Increased space between tabs */
+    margin-bottom: 20px; /* Space below tabs */
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #ecf0f1; /* Lighter gray background for inactive tabs */
+    border-radius: 9999px; /* Pill shape */
+    padding: 10px 24px;
+    color: #34495e; /* Darker text for inactive tabs */
+    font-weight: 500;
+    border: none; /* Remove default border */
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for tabs */
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background-color: #dce0e3; /* Slightly darker on hover */
+    color: #2c3e50;
+}
+
+/* Note: The order of these active tab styles matters due to specificity */
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    background-color: #3498db; /* A more vibrant blue for active tab (if the next rule wasn't present) */
+    color: white; /* White text for active tab */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More prominent shadow for active tab */
+    font-weight: 600;
+    border-bottom: none !important; /* Ensure no bottom border for selected tab */
+}
+
+/* Specific hover style for buttons within tab list */
+.stTabs [data-baseweb="tab-list"] button:hover {
+    background-color: #e0e2e6;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* This rule for the active tab color appears later and will override the earlier one if also marked as selected */
+.stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {
+    background-color: #6a0dad; /* UI Metric: Active tab background changed to a deep purple */
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    border-bottom: none; /* Ensure no bottom border for selected tab */
+}
+
+/* Aggressive removal of bottom border for tabs (often needed for full custom tab design) */
+.stTabs [data-baseweb="tab-list"] {
+    border-bottom: none !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-bottom: none !important;
+}
+
+.stTabs [data-baseweb="tab"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Hide the tab highlight element (the blue line under active tab) */
+.stTabs [data-baseweb="tab-highlight"] {
+    display: none !important;
+}
